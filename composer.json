@@ -1,0 +1,17 @@
+
+{
+  "name": "your-vendor/qr-scanner",
+  "description": "QR scanner service for Laravel",
+  "type": "library",
+  "license": "proprietary",
+  "autoload": { "psr-4": { "Services\\QrScanner\\": "src/" } },
+  "extra": {
+    "laravel": {
+      "providers": ["Services\\QrScanner\\Providers\\QrScannerServiceProvider"]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0"
+  }
+}
