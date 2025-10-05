@@ -1,6 +1,6 @@
 
 {
-  "name": "your-vendor/qr-scanner",
+"name": "hananprogram/qr-scanner",
   "description": "QR scanner service for Laravel",
   "type": "library",
   "license": "proprietary",
